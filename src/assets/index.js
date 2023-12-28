@@ -22,7 +22,9 @@ import pic21 from './pic21.png'
 import pic22 from './pic22.png'
 import pic23 from './pic23.png'
 import pic24 from './pic24.png'
+import pic25 from './pic25.jpg'
 import logo from './logo.svg'
+import logoW from './logoW.svg'
 import Earth from './Earth.svg'
 import Fox from './Fox.svg'
 import Goldline from './Goldline.svg'
@@ -59,7 +61,9 @@ export{
     pic22,
     pic23,
     pic24,
+    pic25,
     logo,
+    logoW,
     Earth,
     Solaytic,
     Fox,

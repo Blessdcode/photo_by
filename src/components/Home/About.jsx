@@ -6,13 +6,13 @@ import { Brands } from '../../constants/main'
 
 const About = () => {
     return (
-        <div className="">
+        <div className="my-8 border-b-[1px] border-black ">
         <section className={`flex items-end justify-between flex-col md:flex-row ${styles.paddingX} ${styles.paddingY}`}>
 
             <div className='flex flex-col items-start flex-[1.5]'>
                 <div className='relative'>
                     <span className=' w-[15px] h-[15px] rounded-[100%] bg-black absolute bottom-[45%] right-[-25px]'></span>
-                    <h3 className={`${styles.heading3} py-8`}>About</h3>
+                    <h3 className={`${styles.heading3} py-8 uppercase`}>About</h3>
                 </div>
                 <div className={`${styles.flexCenter} py-1 md:py-4`}>
                     <span className={`mr-2 ${styles.heading2} uppercase`}>PhotoBy</span>
@@ -27,7 +27,7 @@ const About = () => {
 
             
         </section>
-        <div className=' flex md:justify-between justify-around items-center flex-wrap mt-4'>
+        <div className=' flex md:justify-between justify-around items-center flex-wrap mt-4 mb-8 '>
 
                 {Brands.map((brand) => (
                     <div key={brand.id}>

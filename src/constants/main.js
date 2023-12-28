@@ -1,4 +1,4 @@
-import { Fox, Earth, Goldline, Solaytic, Utosia, Ztos, icons_1, icons_2, icons_3, icons_4 } from '../assets'
+import { Fox, Earth, Goldline, Solaytic, Utosia, Ztos, icons_1, icons_2, icons_3, icons_4,pic16, pic17,pic18,pic25 } from '../assets'
 
 export const navLinks = [
   {
@@ -87,58 +87,84 @@ export const ServicesEl = [
 ];
 
 
-
+export const Feature =[
+  {
+    id:"feat-1",
+    img:pic18,
+    small:"PRESS",
+    date:"11.02.2022",
+    heading:"HOW TO BE AN EXPERT IN YOUR FIELD",
+  },
+  {
+    id:"feat-1",
+    img:pic17,
+    small:"PRESS",
+    date:"11.02.2022",
+    heading:"HOW TO BE AN EXPERT IN YOUR FIELD",
+  },
+  {
+    id:"feat-1",
+    img:pic16,
+    small:"PRESS",
+    date:"11.02.2022",
+    heading:"HOW TO BE AN EXPERT IN YOUR FIELD",
+  },
+  {
+    id:"feat-1",
+    img:pic25,
+    small:"PRESS",
+    date:"11.02.2022",
+    heading:"HOW TO BE AN EXPERT IN YOUR FIELD",
+  },
+]
 
 
 
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "SOCIAL",
     links: [
       {
-        name: "Content",
+        name: "Instagram",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "Twitter",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
+        name: "Linkedin",
         link: "https://www.hoobank.com/create/",
       },
       {
-        name: "Explore",
+        name: "Facebook",
         link: "https://www.hoobank.com/explore/",
       },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
+      
     ],
   },
   {
-    title: "Community",
+    title: "PAGES",
     links: [
       {
-        name: "Help Center",
+        name: "Home",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "About",
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "Blog",
         link: "https://www.hoobank.com/suggestions/",
       },
       {
-        name: "Blog",
+        name: "Services",
         link: "https://www.hoobank.com/blog/",
       },
       {
-        name: "Newsletters",
+        name: "Contact",
         link: "https://www.hoobank.com/newsletters/",
       },
     ],

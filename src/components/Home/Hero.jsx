@@ -26,7 +26,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className='w-[100%] md:min-w-[1356px] '>
-                <img src={pic1} alt="Hero image" className='w-[50%] h-[423.448px] md:h-full ' />
+                <img src={pic1} alt="services" className='w-full h-[423.448px] md:h-full object-cover object-center' />
             </div>
         </section>
     )

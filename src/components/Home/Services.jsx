@@ -6,7 +6,7 @@ import { pic3 } from '../../assets'
 
 const Services = () => {
     return (
-        <div className=' my-8'>
+        <div className=' my-8 border-b-[1px] border-black'>
             <section className={`flex  justify-between flex-col md:flex-row ${styles.paddingX} ${styles.paddingY}`}>
 
                 <div className='flex flex-col items-start '>
@@ -14,7 +14,7 @@ const Services = () => {
                     <div className='relative '>
                         <div className='relative'>
                             <span className=' w-[15px] h-[15px] rounded-[100%] bg-black absolute bottom-[45%] right-[-25px]'></span>
-                            <h3 className={`${styles.heading3} py-8`}>Services</h3>
+                            <h3 className={`${styles.heading3} py-8 uppercase`}>Services</h3>
                         </div>
                     </div>
                     <div className="flex md:flex-nowrap flex-wrap items-center justify-between gap-[42px]">
@@ -32,7 +32,7 @@ const Services = () => {
                     </div>
                 </div>
             </section>
-            <div className='w-[100%] md:min-w-[1356px] '>
+            <div className='w-[100%] md:min-w-[1356px] mb-10'>
                 <img src={pic3} alt="services" className='w-full h-[423.448px] md:h-full object-cover object-center' />
             </div>
         </div>
