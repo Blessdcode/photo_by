@@ -25,8 +25,8 @@ const Hero = () => {
                     <p className=' absolute bottom-[70px] right-[40px] text-[28px] font-[500]'>Next</p>
                 </div>
             </div>
-            <div className='w-[100%] md:w-[1356px] '>
-                <img src={pic1} alt="Hero image" className='w-full h-[423.448px] md:h-full object-cover object-center' />
+            <div className='w-[100%] md:min-w-[1356px] '>
+                <img src={pic1} alt="Hero image" className='w-[50%] h-[423.448px] md:h-full ' />
             </div>
         </section>
     )

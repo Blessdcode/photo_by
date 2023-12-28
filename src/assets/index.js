@@ -23,6 +23,16 @@ import pic22 from './pic22.png'
 import pic23 from './pic23.png'
 import pic24 from './pic24.png'
 import logo from './logo.svg'
+import Earth from './Earth.svg'
+import Fox from './Fox.svg'
+import Goldline from './Goldline.svg'
+import Solaytic from './Solaytic.svg'
+import Utosia from './Utosia.svg'
+import Ztos from './Ztos.svg'
+import icons_1 from './icons_1.svg'
+import icons_2 from './icons_2.svg'
+import icons_3 from './icons_3.svg'
+import icons_4 from './icons_4.svg'
 
 export{
     pic1,
@@ -50,4 +60,14 @@ export{
     pic23,
     pic24,
     logo,
+    Earth,
+    Solaytic,
+    Fox,
+    Utosia,
+    Ztos,
+    Goldline,
+    icons_1,
+    icons_2,
+    icons_3,
+    icons_4
 }

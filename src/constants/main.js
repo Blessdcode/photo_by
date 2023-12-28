@@ -1,3 +1,4 @@
+import { Fox, Earth, Goldline, Solaytic, Utosia, Ztos, icons_1, icons_2, icons_3, icons_4 } from '../assets'
 
 export const navLinks = [
   {
@@ -20,62 +21,75 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
- 
+
+];
+
+export const Brands = [
+  {
+    id: 1,
+    img: Fox,
+  },
+  {
+    id: 2,
+    img: Goldline,
+  },
+  {
+    id: 3,
+    img: Solaytic,
+  },
+  {
+    id: 4,
+    img: Earth,
+  },
+  {
+    id: 5,
+    img: Ztos,
+  },
+  {
+    id: 6,
+    img: Utosia,
+  },
+]
+
+
+
+
+
+export const ServicesEl = [
+  {
+    id: "serv-1",
+    content:
+      "Lorem ipsum dolor sit amet consectetur. Nunc lacus imperdiet adipiscing urna. Amet aenean ac faucibus varius curabitur consequat pellentesque morbi. ",
+    title: "STRATEGY",
+    img: icons_1,
+  },
+  {
+    id: "serv-2",
+    content:
+    "Lorem ipsum dolor sit amet consectetur. Nunc lacus imperdiet adipiscing urna. Amet aenean ac faucibus varius curabitur consequat pellentesque morbi. ",
+  title: "STRATEGY",
+    img: icons_2,
+  },
+  {
+    id: "serv-3",
+    content:
+      "Lorem ipsum dolor sit amet consectetur. Nunc lacus imperdiet adipiscing urna. Amet aenean ac faucibus varius curabitur consequat pellentesque morbi. ",
+    title: "STRATEGY",
+    img: icons_3,
+  },
+  {
+    id: "serv-4",
+    content:
+      "Lorem ipsum dolor sit amet consectetur. Nunc lacus imperdiet adipiscing urna. Amet aenean ac faucibus varius curabitur consequat pellentesque morbi. ",
+    title: "STRATEGY",
+    img: icons_4,
+  },
 ];
 
 
 
 
 
-
-// export const feedback = [
-//   {
-//     id: "feedback-1",
-//     content:
-//       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-//     name: "Herman Jensen",
-//     title: "Founder & Leader",
-//     img: people01,
-//   },
-//   {
-//     id: "feedback-2",
-//     content:
-//       "Money makes your life easier. If you're lucky to have it, you're lucky.",
-//     name: "Steve Mark",
-//     title: "Founder & Leader",
-//     img: people02,
-//   },
-//   {
-//     id: "feedback-3",
-//     content:
-//       "It is usually people in the money business, finance, and international trade that are really rich.",
-//     name: "Kenn Gallagher",
-//     title: "Founder & Leader",
-//     img: people03,
-//   },
-// ];
-
-
-
-
-// export const clients = [
-//   {
-//     id: "client-1",
-//     logo: airbnb,
-//   },
-//   {
-//     id: "client-2",
-//     logo: binance,
-//   },
-//   {
-//     id: "client-3",
-//     logo: coinbase,
-//   },
-//   {
-//     id: "client-4",
-//     logo: dropbox,
-//   },
-// ];
 
 
 export const footerLinks = [

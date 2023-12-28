@@ -34,7 +34,7 @@ const Navbar = () => {
               <li key={nav.id}
                 className={` text-[16px] text-black ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} `}
               >
-              
+
 
                 <Link
                   to={nav.id}
@@ -57,19 +57,29 @@ const Navbar = () => {
 
       </div>
 
+     
+
       <div className='sm:hidden flex flex-1 justify-end items-center'>
+         <div className=' self-end'>
+        <div className='flex sm:hidden items-end justify-end gap-2'>
+
+          <FaFacebookF size={20} />
+          <FaTwitter size={20} />
+          <AiFillLinkedin size={20} />
+        </div>
+      </div>
         <div onClick={toggleMenu} className={`toggle-icon ${toggle ? 'Isactive' : ''}`}>
           {!toggle ? <AiOutlineMenu size={26} /> : <AiOutlineClose size={26} />}
         </div>
 
-        <div className={`${toggle ? 'block' : 'hidden'} p-6 bg-black-gradient absolute top-16 right-0 z-50 min-w-[100%]  bg-black sidebar `}>
+        <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-16 right-0 z-50 min-w-[100%]  bg-black sidebar `}>
           <ul className='list-none flex flex-col justify-end items-end flex-1 text-black'>
             {navLinks.map((nav, index) => (
               <li key={nav.id}
                 className={`text-[24px] text-white ${index === navLinks.length - 1 ? 'mb-0' : 'mb-7'} `}
               >
-            
-            <Link
+
+                <Link
                   to={nav.id}
                   className={` ${isActive(nav) ? 'active' : 'active'}`}
                 >
@@ -82,6 +92,7 @@ const Navbar = () => {
           </ul>
 
         </div>
+       
       </div>
 
       <div className='hidden sm:flex items-center justify-center gap-2'>
