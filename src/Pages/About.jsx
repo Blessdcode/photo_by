@@ -1,11 +1,19 @@
 import React from 'react'
+import styles from '../styles'
+import AboutHero from '../components/About/AboutHero'
+import AboutServices from '../components/About/AboutServices'
+import ProjectDone from '../components/About/ProjectDone'
 
-const About = () => {
+
+
+const Home = () => {
   return (
-    <div>
-      <h1>About</h1>
+    <div className={`${styles.marginX} ${styles.marginY}`}>
+      <AboutHero />
+      <ProjectDone />
+      <AboutServices />
     </div>
   )
 }
 
-export default About
+export default Home

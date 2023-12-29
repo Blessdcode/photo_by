@@ -9,13 +9,20 @@
 
 .sidebar {
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top .5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+
+}
+
+.sidebarr {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-down .5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+
 }
 
 @-webkit-keyframes slide-top {
   0% {
-    -webkit-transform: translateX(100px);
-    transform: translateX(100px);
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px);
   }
 
   100% {
@@ -26,7 +33,7 @@
 
 @keyframes slide-top {
   0% {
-    -webkit-transform: translateX(200px);
+    -webkit-transform: translateX(300px);
     transform: translateX(300px);
   }
 
@@ -36,14 +43,28 @@
   }
 }
 
+@keyframes slide-down {
+  0% {
+    -webkit-transform: translateY(300px);
+    transform: translateY(300px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
 /* Add this to your styles or Tailwind CSS styles */
 .toggle-icon {
   cursor: pointer;
-  transition: transform 0.3s ease-in-out; /* Adjust the duration and easing as needed */
+  transition: transform 0.3s ease-in-out;
+  /* Adjust the duration and easing as needed */
 }
 
 .toggle-icon.Isactive {
-  transform: rotate(90deg); /* Rotate the icon when active */
+  transform: rotate(90deg);
+  /* Rotate the icon when active */
 }
 
 
@@ -51,11 +72,27 @@
   color: #ff0000;
 }
 
-.date{
-  color: #0000000d;
-font-family: Inter;
-font-size: 196px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+.date {
+  color: #504e4ece;
+  font-family: Inter;
+  font-size: 196px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+.box:nth-child(even) {
+  background: #000;
 }

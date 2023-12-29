@@ -149,23 +149,23 @@ export const footerLinks = [
     links: [
       {
         name: "Home",
-        link: "https://www.hoobank.com/help-center/",
+        link: "/",
       },
       {
         name: "About",
-        link: "https://www.hoobank.com/partners/",
+        link: "/about",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "/blog",
       },
       {
         name: "Services",
-        link: "https://www.hoobank.com/blog/",
+        link: "/services",
       },
       {
         name: "Contact",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "/contact",
       },
     ],
   },
