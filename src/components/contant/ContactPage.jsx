@@ -28,7 +28,6 @@ const ContactPage = () => {
                                     <input type="text" placeholder='EMAIL ADDRESS' className='w-full border-none  outline-none bg-transparent  text-[12px] placeholder:text-black' />
                                 </div>
                                 <div className='py-5 border-b-[1px] border-black w-full flex'>
-                                    {/* <input type="text" placeholder='EMAIL ADDRESS' className='w-full border-none  outline-none bg-transparent  text-[12px] placeholder:text-black' /> */}
                                     <textarea name="" id="" cols="30" rows="10" placeholder='ENTER MESSAGE' className='w-full border-none  outline-none bg-transparent  text-[12px] placeholder:text-black'>Message</textarea>
                                 </div>
                                 <button className='my-4 py-[8px] px-[14px] md:py-[14px] md:px-[48px] bg-transparent border-[2px] border-black cursor-pointer hover:bg-black hover:text-white transition-all text-black outline-black rounded-full'>SEND MESSAGE</button>
