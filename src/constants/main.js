@@ -1,4 +1,4 @@
-import { Fox, Earth, Goldline, Solaytic, Utosia, Ztos, icons_1, icons_2, icons_3, icons_4,pic16, pic17,pic18,pic25 } from '../assets'
+import { Fox, Earth, Goldline, Solaytic, Utosia, Ztos, icons_1, icons_2, icons_3, icons_4, pic16, pic17, pic18, pic25 } from '../assets'
 
 export const navLinks = [
   {
@@ -13,10 +13,10 @@ export const navLinks = [
     id: "services",
     title: "Services",
   },
-  {
-    id: "project",
-    title: "Project",
-  },
+  // {
+  //   id: "project",
+  //   title: "Project",
+  // },
   {
     id: "contact",
     title: "Contact",
@@ -52,6 +52,29 @@ export const Brands = [
 ]
 
 
+export const Reviews = [
+  {
+    id: 1,
+    text_1: 200,
+    text_2: "Visualization",
+  },
+  {
+    id: 2,
+    text_1: 7,
+    text_2: "Year Experience",
+  },
+  {
+    id: 3,
+    text_1: 32,
+    text_2: "Award",
+  },
+  {
+    id: 4,
+    text_1: 25,
+    text_2: "Photographers",
+  },
+]
+
 
 
 
@@ -66,8 +89,8 @@ export const ServicesEl = [
   {
     id: "serv-2",
     content:
-    "Lorem ipsum dolor sit amet consectetur. Nunc lacus imperdiet adipiscing urna. Amet aenean ac faucibus varius curabitur consequat pellentesque morbi. ",
-  title: "STRATEGY",
+      "Lorem ipsum dolor sit amet consectetur. Nunc lacus imperdiet adipiscing urna. Amet aenean ac faucibus varius curabitur consequat pellentesque morbi. ",
+    title: "STRATEGY",
     img: icons_2,
   },
   {
@@ -87,34 +110,34 @@ export const ServicesEl = [
 ];
 
 
-export const Feature =[
+export const Feature = [
   {
-    id:"feat-1",
-    img:pic18,
-    small:"PRESS",
-    date:"11.02.2022",
-    heading:"HOW TO BE AN EXPERT IN YOUR FIELD",
+    id: "feat-1",
+    img: pic18,
+    small: "PRESS",
+    date: "11.02.2022",
+    heading: "HOW TO BE AN EXPERT IN YOUR FIELD",
   },
   {
-    id:"feat-1",
-    img:pic17,
-    small:"PRESS",
-    date:"11.02.2022",
-    heading:"HOW TO BE AN EXPERT IN YOUR FIELD",
+    id: "feat-1",
+    img: pic17,
+    small: "PRESS",
+    date: "11.02.2022",
+    heading: "HOW TO BE AN EXPERT IN YOUR FIELD",
   },
   {
-    id:"feat-1",
-    img:pic16,
-    small:"PRESS",
-    date:"11.02.2022",
-    heading:"HOW TO BE AN EXPERT IN YOUR FIELD",
+    id: "feat-1",
+    img: pic16,
+    small: "PRESS",
+    date: "11.02.2022",
+    heading: "HOW TO BE AN EXPERT IN YOUR FIELD",
   },
   {
-    id:"feat-1",
-    img:pic25,
-    small:"PRESS",
-    date:"11.02.2022",
-    heading:"HOW TO BE AN EXPERT IN YOUR FIELD",
+    id: "feat-1",
+    img: pic25,
+    small: "PRESS",
+    date: "11.02.2022",
+    heading: "HOW TO BE AN EXPERT IN YOUR FIELD",
   },
 ]
 
@@ -141,7 +164,7 @@ export const footerLinks = [
         name: "Facebook",
         link: "https://www.hoobank.com/explore/",
       },
-      
+
     ],
   },
   {

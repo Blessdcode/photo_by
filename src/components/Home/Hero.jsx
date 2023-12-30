@@ -9,10 +9,10 @@ const Hero = () => {
                 <div className='flex flex-col relative'>
                     <div className='flex items-start'>
                         <span className=' w-[20px] h-[20px]  sm:w-[40px] sm:h-[40px] rounded-[100%] bg-black mt-1 sm:mt-3'></span>
-                        <h4 className={`${styles.heading2} text-black`}>
+                        <h1 className={`${styles.heading2} text-black`}>
                             BRAND <br />
                             RECOGNITION
-                        </h4>
+                        </h1>
                     </div>
                     <div className='flex items-center gap-4 mt-7'>
                         <p className={`${styles.paragraph} font-[500]`}>PHOTOGRAPHY</p>

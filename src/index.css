@@ -89,7 +89,18 @@
   align-items: center;
 }
 
+.btn {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 12px 0;
+}
+.btn:hover{
+color: #0000005b;
 
+}
 
 
 
