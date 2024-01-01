@@ -1,5 +1,5 @@
 import React from "react";
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Outlet, useLocation } from "react-router-dom";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Services from "./Pages/Services";
@@ -8,11 +8,18 @@ import Contact from "./Pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import styles from "./styles";
+import { AnimatePresence,motion } from 'framer-motion'
 
 
 const Layout = () => {
+
   return (
-    <div>
+    <motion.div
+    animate={{ opacity: 1 }}
+    initial={{ opacity: 0 }}
+    exit={{ opacity: 0 }}
+    transition={{ duration: 0.5 }}
+    >
     <div className={`${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
@@ -20,11 +27,12 @@ const Layout = () => {
       </div>
       <Outlet />
       <Footer />
-    </div>
+    </motion.div>
   );
 };
 
 const router = createBrowserRouter([
+  
   {
     path: "/",
     element: <Layout />,
@@ -54,9 +62,13 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
+  // const location = useLocation()
+
   return (
     <div>
+       <AnimatePresence wait>
       <RouterProvider router={router} />
+       </AnimatePresence>
     </div>
   );
 }

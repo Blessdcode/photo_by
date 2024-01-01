@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import styles from '../../styles'
 import { Feature } from '../../constants/main'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
@@ -8,11 +8,14 @@ import '@splidejs/react-splide/css';
 
 
 const Features = () => {
+   
     return (
         <div className=' my-8 '>
             <section className={`flex  justify-between flex-col md:flex-row ${styles.paddingX} ${styles.paddingY}`}>
 
-                <div className='flex flex-col items-start '>
+                <div className='flex flex-col items-start '
+                  
+                    >
 
                     <div className='relative '>
                         <div className='relative'>
@@ -22,6 +25,8 @@ const Features = () => {
                     </div>
 
                     <div className=' w-[100%]'>
+
+
                         <Splide
                             options={{
                                 perPage: 3,
@@ -39,8 +44,11 @@ const Features = () => {
 
                             {Feature.map((feat) => (
                                 <SplideSlide key={feat.id}>
-                                    <div className='w-[100%'>
-                                        <img src={feat.img} alt={feat.id} className='w-[100%] h-[400px] object-cover'/>
+                                    <div className='w-[100%'
+
+                                    >
+
+                                        <img src={feat.img} alt={feat.id} className='w-[100%] h-[400px] object-cover' />
                                         <div className='flex justify-between mt-2 mb-4 border-b-[1px] border-black p-2'>
                                             <p className='text-[14px] font-[600]'>{feat.small}</p>
                                             <p className='text-[14px] font-[600]'>{feat.date}</p>

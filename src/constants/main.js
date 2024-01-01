@@ -1,4 +1,4 @@
-import { Fox, Earth, Goldline, Solaytic, Utosia, Ztos, icons_1, icons_2, icons_3, icons_4, pic16, pic17, pic18, pic25 } from '../assets'
+import { Fox, Earth, Goldline, Solaytic, Utosia, Ztos, icons_1, icons_2, icons_3, icons_4, pic16, pic17, pic18, pic25,pic13,pic11,pic14,pic12,pic15 } from '../assets'
 
 export const navLinks = [
   {
@@ -139,6 +139,39 @@ export const Feature = [
     date: "11.02.2022",
     heading: "HOW TO BE AN EXPERT IN YOUR FIELD",
   },
+]
+
+
+export const Service = [
+  {
+    id: "ser-1",
+    img: pic11,
+    small: "Explore services",
+    heading: " DIGITAL PRODUCT SELLING ON  INTERNET",
+  },
+  
+  {
+    id: "ser-1",
+    img: pic14,
+    small: "Explore services",
+    heading: " DIGITAL PRODUCT SELLING ON  INTERNET",
+  },
+  
+  {
+    id: "ser-1",
+    img: pic12,
+    small: "Explore services",
+    heading: " DIGITAL PRODUCT SELLING ON  INTERNET",
+  },
+  
+  {
+    id: "ser-1",
+    img: pic15,
+    small: "Explore services",
+    heading: " DIGITAL PRODUCT SELLING ON  INTERNET",
+  },
+  
+  
 ]
 
 
