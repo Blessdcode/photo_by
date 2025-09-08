@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react'
 import styles from '../../styles'
 import { Feature } from '../../constants/main'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
@@ -10,7 +9,7 @@ import '@splidejs/react-splide/css';
 const Features = () => {
    
     return (
-        <div className=' my-8 '>
+        <div className='my-8 '>
             <section className={`flex  justify-between flex-col md:flex-row ${styles.paddingX} ${styles.paddingY}`}>
 
                 <div className='flex flex-col items-start '

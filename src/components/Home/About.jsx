@@ -1,8 +1,5 @@
-import React from "react";
 import styles from "../../styles";
-import { logo, pic4 } from "../../assets";
-import { Brands } from "../../constants/main";
-import { motion } from "framer-motion";
+import {pic4 } from "../../assets";
 
 const About = () => {
   return (
@@ -17,13 +14,9 @@ const About = () => {
             <h3 className={`${styles.heading3} py-8 uppercase`}>About</h3>
           </div>
 
-          <div className={`${styles.flexCenter} py-1 md:py-4`}>
-            <span className={`mr-2 ${styles.heading2} uppercase`}>PhotoBy</span>
-            <img
-              src={logo}
-              alt="Blak Naira brand logo"
-              className="w-[28px] md:w-[41px]"
-            />
+          <div className={`${styles.flexCenter} py-1 md:py-4 relative`}>
+            <span className={`mr-2 ${styles.heading2} `}>Back Naira</span>
+          
           </div>
 
           <img
@@ -58,24 +51,9 @@ const About = () => {
             the unique creative vision of the Blak Naira brand.
           </p>
 
-          <button className="py-[14px] px-[24px] md:px-[48px] bg-black text-white font-medium rounded-full my-4 hover:bg-gray-900 transition">
-            Learn More
-          </button>
         </div>
       </section>
 
-      {/* Brands/Collaborations */}
-      <div className="flex flex-wrap justify-center md:justify-between items-center gap-6 mt-6 mb-8">
-        {Brands.map((brand) => (
-          <div key={brand.id} className="flex items-center justify-center">
-            <img
-              src={brand.img}
-              alt={`${brand.id} logo`}
-              className="h-[40px] md:h-[50px] object-contain grayscale hover:grayscale-0 transition"
-            />
-          </div>
-        ))}
-      </div>
     </div>
   );
 };

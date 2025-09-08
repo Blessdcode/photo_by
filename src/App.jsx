@@ -1,8 +1,7 @@
-import React from "react";
-import { createBrowserRouter, RouterProvider, Outlet, useLocation } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
-import Services from "./Pages/Services";
+import Gallerys from "./Pages/Gallerys";
 import Project from "./Pages/Project";
 import Contact from "./Pages/Contact";
 import Navbar from "./components/Navbar";
@@ -32,7 +31,6 @@ const Layout = () => {
 };
 
 const router = createBrowserRouter([
-  
   {
     path: "/",
     element: <Layout />,
@@ -46,8 +44,8 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: "/services",
-        element: <Services />,
+        path: "/gallery",
+        element: <Gallerys />,
       },
       {
         path: "/project",

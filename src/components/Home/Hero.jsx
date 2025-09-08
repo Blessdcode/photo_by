@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "../../styles";
 import { pic1 } from "../../assets";
 import { motion } from "framer-motion";
@@ -11,7 +11,10 @@ const textVariant = {
 const Hero = () => {
   const [dateTime, setDateTime] = useState({
     year: new Date().getFullYear(),
-    time: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
+    time: new Date().toLocaleTimeString([], {
+      hour: "2-digit",
+      minute: "2-digit",
+    }),
     date: new Date().toLocaleDateString(),
   });
 
@@ -20,7 +23,10 @@ const Hero = () => {
     const timer = setInterval(() => {
       setDateTime({
         year: new Date().getFullYear(),
-        time: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
+        time: new Date().toLocaleTimeString([], {
+          hour: "2-digit",
+          minute: "2-digit",
+        }),
         date: new Date().toLocaleDateString(),
       });
     }, 60000);
@@ -30,13 +36,13 @@ const Hero = () => {
 
   return (
     <section className={`${styles.paddingX}`}>
-      <div className="my-10 flex items-center justify-between">
+      <div className="flex items-center justify-between my-10">
         {/* Left Section */}
         <motion.div
           initial="initial"
           animate="animate"
           variants={textVariant}
-          className="flex flex-col relative"
+          className="relative flex flex-col"
         >
           <div className="flex items-start">
             <span className="w-[20px] h-[20px] sm:w-[40px] sm:h-[40px] rounded-full bg-black mt-1 sm:mt-3"></span>
@@ -57,14 +63,14 @@ const Hero = () => {
           <p className="text-[#0000000d] text-[48px] sm:text-[196px] font-[500]">
             {dateTime.year}
           </p>
-          <p className="absolute bottom-[70px] right-[40px] text-[18px] sm:text-[28px] font-[500]">
-            {dateTime.date} – {dateTime.time}
+          <p className="absolute bottom-[70px] right-[40px] text-[18px] sm:text-[28px] font-[500] text-slate-900">
+            {dateTime.time}
           </p>
         </div>
       </div>
 
       {/* Hero Image */}
-      <div className="w-full md:min-w-[1356px]">
+      <div className="w-full md:min-w-[1356px] h-fit md:h-[720px]">
         <img
           src={pic1}
           alt="Showcasing photography services"

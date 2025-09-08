@@ -1,4 +1,4 @@
-import { Fox, Earth, Goldline, Solaytic, Utosia, Ztos, icons_1, icons_2, icons_3, icons_4, pic16, pic17, pic18, pic25,pic13,pic11,pic14,pic12,pic15 } from '../assets'
+import { Fox, Earth, Goldline, Solaytic, Utosia, Ztos, icons_1, icons_2, icons_3, icons_4, pic16, pic17, pic18, pic25,pic11,pic14,pic12,pic15 } from '../assets'
 
 export const navLinks = [
   {
@@ -10,8 +10,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "services",
-    title: "Services",
+    id: "gallery",
+    title: "Gallery",
   },
   // {
   //   id: "project",
@@ -81,30 +81,34 @@ export const Reviews = [
 export const ServicesEl = [
   {
     id: "serv-1",
+    title: "Studio Photography",
     content:
-      "Lorem ipsum dolor sit amet consectetur. Nunc lacus imperdiet adipiscing urna. Amet aenean ac faucibus varius curabitur consequat pellentesque morbi. ",
-    title: "STRATEGY",
+      "Step into the world of Blak Naira with our studio sessions, where every portrait is a cinematic work of art. Using dramatic lighting and creative compositions, we craft bold, expressive images that capture your essence. Perfect for personal portraits, fashion shoots, or conceptual projects, our studio work is tailored to bring your vision to life.",
+    cta: "Book Your Studio Session",
     img: icons_1,
   },
   {
     id: "serv-2",
+    title: "Outdoor / Location Photography",
     content:
-      "Lorem ipsum dolor sit amet consectetur. Nunc lacus imperdiet adipiscing urna. Amet aenean ac faucibus varius curabitur consequat pellentesque morbi. ",
-    title: "STRATEGY",
+      "Embrace the beauty of the world around you with Blak Naira’s outdoor and location photography. From sweeping landscapes to urban backdrops, we create vivid, cinematic images that tell your story against stunning settings. Ideal for engagement shoots, family portraits, or artistic projects, our location sessions are as dynamic as your imagination.",
+    cta: "Explore Location Photography",
     img: icons_2,
   },
   {
     id: "serv-3",
+    title: "Event Coverage",
     content:
-      "Lorem ipsum dolor sit amet consectetur. Nunc lacus imperdiet adipiscing urna. Amet aenean ac faucibus varius curabitur consequat pellentesque morbi. ",
-    title: "STRATEGY",
+      "Blak Naira brings artistry to life’s biggest moments with our event coverage for weddings, conferences, and birthdays. With a keen eye for emotion and detail, we capture the energy and essence of your event in a cinematic, storytelling style. From heartfelt vows to lively celebrations, we ensure every moment is preserved as a timeless memory.",
+    cta: "Contact Us for Event Coverage",
     img: icons_3,
   },
   {
     id: "serv-4",
+    title: "Why Choose Blak Naira?",
     content:
-      "Lorem ipsum dolor sit amet consectetur. Nunc lacus imperdiet adipiscing urna. Amet aenean ac faucibus varius curabitur consequat pellentesque morbi. ",
-    title: "STRATEGY",
+      "With Blak Naira, you’re partnering with an artist dedicated to creating dramatic, evocative imagery that tells your unique story. Our collaborative process ensures every project reflects your vision, delivered with precision and passion.",
+    cta: null, // optional — no button for this one
     img: icons_4,
   },
 ];
@@ -183,21 +187,13 @@ export const footerLinks = [
     links: [
       {
         name: "Instagram",
-        link: "https://www.hoobank.com/content/",
+        link: "https://www.instagram.com/blak.naira.photography?igsh=a3U3N2hlZnhmd2V2&utm_source=qr",
       },
       {
-        name: "Twitter",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "X",
+        link: "https://x.com/blak_naira?s=21",
       },
-      {
-        name: "Linkedin",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Facebook",
-        link: "https://www.hoobank.com/explore/",
-      },
-
+      
     ],
   },
   {
@@ -211,13 +207,10 @@ export const footerLinks = [
         name: "About",
         link: "/about",
       },
+    
       {
-        name: "Blog",
-        link: "/blog",
-      },
-      {
-        name: "Services",
-        link: "/services",
+        name: "Gallery",
+        link: "/gallery",
       },
       {
         name: "Contact",
@@ -225,19 +218,7 @@ export const footerLinks = [
       },
     ],
   },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
+  
 ];
 
 // export const socialMedia = [

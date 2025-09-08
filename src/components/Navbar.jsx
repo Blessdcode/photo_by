@@ -4,7 +4,6 @@ import { logo } from "../assets";
 import { AiOutlineMenu, AiOutlineClose, AiFillLinkedin } from "react-icons/ai";
 import { FaFacebookF, FaTwitter } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
-import styles from "../styles";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);

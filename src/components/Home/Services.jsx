@@ -1,7 +1,5 @@
-import React from 'react'
 import styles from '../../styles'
 import { ServicesEl } from '../../constants/main'
-import { pic3 } from '../../assets'
 
 
 const Services = () => {
@@ -32,9 +30,7 @@ const Services = () => {
                     </div>
                 </div>
             </section>
-            <div className='w-[100%] md:min-w-[1356px] mb-10'>
-                <img src={pic3} alt="services" className='w-full h-[423.448px] md:h-full object-cover object-center' />
-            </div>
+      
         </div>
     )
 }

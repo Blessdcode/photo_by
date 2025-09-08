@@ -1,4 +1,3 @@
-import React from 'react'
 import ContactPage from '../components/contant/ContactPage'
 
 const Contact = () => {

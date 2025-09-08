@@ -1,12 +1,11 @@
-import React from 'react'
 import styles from '../../styles'
 import { pic2 } from "../../assets"
 
 const Hero = () => {
     return (
         <section className={`${styles.paddingX}`}>
-            <div className=" my-10 flex items-center justify-between">
-                <div className='flex flex-col relative'>
+            <div className="flex items-center justify-between my-10 ">
+                <div className='relative flex flex-col'>
                     <div className='flex items-start'>
                         <span className=' w-[20px] h-[20px]  sm:w-[40px] sm:h-[40px] rounded-[100%] bg-black mt-1 sm:mt-3'></span>
                         <h4 className={`${styles.heading2} text-black`}>

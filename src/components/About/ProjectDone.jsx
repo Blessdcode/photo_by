@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import styles from '../../styles';
 import { logo, pic4 } from '../../assets';
 import { Brands, Reviews } from '../../constants/main';
@@ -46,7 +46,7 @@ const ProjectDone = ({ targetNumber }) => {
                     </button>
                 </div>
             </section>
-            <div className=' flex md:justify-between justify-around items-center flex-wrap mt-4 mb-8 '>
+            <div className='flex flex-wrap items-center justify-around mt-4 mb-8  md:justify-between'>
                 {Brands.map((brand) => (
                     <div key={brand.id}>
                         <img src={brand.img} alt={brand.id} />
@@ -57,7 +57,7 @@ const ProjectDone = ({ targetNumber }) => {
                 <div className='flex flex-col md:flex-row w-[100%] justify-between items-center'>
                     {Reviews.map((review) => (
                         <div key={review.id} className='flex flex-col justify-center items-center hover:bg-black hover:text-white w-[100%] md:w-[360px] h-[260px]'>
-                            <div className='flex flex-col justify-center items-center '>
+                            <div className='flex flex-col items-center justify-center '>
                                 <h3 className='text-[26px] md:text-[64px] font-[500]'>{review.text_1}+</h3>
                                 <p className='uppercase text-[12px] md:text-[21px]'>{review.text_2}</p>
                             </div>
