@@ -15,7 +15,7 @@ const About = () => {
           </div>
 
           <div className={`${styles.flexCenter} py-1 md:py-4 relative`}>
-            <span className={`mr-2 ${styles.heading2} `}>Back Naira</span>
+            <span className={`mr-2 ${styles.heading2} `}>Blak Naira</span>
           
           </div>
 
