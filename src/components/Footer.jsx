@@ -9,7 +9,7 @@ const Footer = () => (
     <div className="flex flex-col items-start justify-between w-full mb-12 md:flex-row md:items-center">
       <div className="flex items-center gap-4">
         <span className="font-semibold sm:text-[64px] text-[28px] uppercase sm:leading-[76px] leading-[32px]">
-          Black Naira
+          Blak Naira
         </span>
       </div>
     </div>
