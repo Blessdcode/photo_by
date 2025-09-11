@@ -1,4 +1,33 @@
-import { Fox, Earth, Goldline, Solaytic, Utosia, Ztos, icons_1, icons_2, icons_3, icons_4, pic16, pic17, pic18, pic25,pic11,pic14,pic12,pic15 } from '../assets'
+import {
+  icons_1,
+  icons_2,
+  icons_3,
+  icons_4,
+  gallery1,
+  gallery2,
+  gallery3,
+  gallery4,
+  gallery5,
+  gallery6,
+  gallery7,
+  gallery8,
+  gallery9,
+  gallery10,
+  gallery11,
+  gallery12,
+  gallery13,
+  gallery14,
+  gallery15,
+  gallery16,
+  gallery17,
+  gallery18,
+  gallery19,
+  gallery20,
+  pic11,
+  pic12,
+  pic13,
+  pic14,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -21,35 +50,8 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-
 ];
 
-export const Brands = [
-  {
-    id: 1,
-    img: Fox,
-  },
-  {
-    id: 2,
-    img: Goldline,
-  },
-  {
-    id: 3,
-    img: Solaytic,
-  },
-  {
-    id: 4,
-    img: Earth,
-  },
-  {
-    id: 5,
-    img: Ztos,
-  },
-  {
-    id: 6,
-    img: Utosia,
-  },
-]
 
 
 export const Reviews = [
@@ -73,10 +75,7 @@ export const Reviews = [
     text_1: 25,
     text_2: "Photographers",
   },
-]
-
-
-
+];
 
 export const ServicesEl = [
   {
@@ -114,70 +113,6 @@ export const ServicesEl = [
 ];
 
 
-export const Feature = [
-  {
-    id: "feat-1",
-    img: pic18,
-    small: "PRESS",
-    date: "11.02.2022",
-    heading: "HOW TO BE AN EXPERT IN YOUR FIELD",
-  },
-  {
-    id: "feat-1",
-    img: pic17,
-    small: "PRESS",
-    date: "11.02.2022",
-    heading: "HOW TO BE AN EXPERT IN YOUR FIELD",
-  },
-  {
-    id: "feat-1",
-    img: pic16,
-    small: "PRESS",
-    date: "11.02.2022",
-    heading: "HOW TO BE AN EXPERT IN YOUR FIELD",
-  },
-  {
-    id: "feat-1",
-    img: pic25,
-    small: "PRESS",
-    date: "11.02.2022",
-    heading: "HOW TO BE AN EXPERT IN YOUR FIELD",
-  },
-]
-
-
-export const Service = [
-  {
-    id: "ser-1",
-    img: pic11,
-    small: "Explore services",
-    heading: " DIGITAL PRODUCT SELLING ON  INTERNET",
-  },
-  
-  {
-    id: "ser-1",
-    img: pic14,
-    small: "Explore services",
-    heading: " DIGITAL PRODUCT SELLING ON  INTERNET",
-  },
-  
-  {
-    id: "ser-1",
-    img: pic12,
-    small: "Explore services",
-    heading: " DIGITAL PRODUCT SELLING ON  INTERNET",
-  },
-  
-  {
-    id: "ser-1",
-    img: pic15,
-    small: "Explore services",
-    heading: " DIGITAL PRODUCT SELLING ON  INTERNET",
-  },
-  
-  
-]
-
 
 
 
@@ -193,7 +128,6 @@ export const footerLinks = [
         name: "X",
         link: "https://x.com/blak_naira?s=21",
       },
-      
     ],
   },
   {
@@ -207,7 +141,7 @@ export const footerLinks = [
         name: "About",
         link: "/about",
       },
-    
+
       {
         name: "Gallery",
         link: "/gallery",
@@ -218,7 +152,6 @@ export const footerLinks = [
       },
     ],
   },
-  
 ];
 
 // export const socialMedia = [
@@ -243,3 +176,118 @@ export const footerLinks = [
 //     link: "https://www.linkedin.com/",
 //   },
 // ];
+
+
+export const galleryItems = [
+  {
+    id: 1,
+    img: pic13,
+   
+  },
+  {
+    id: 2,
+    img: gallery1,
+   
+  },
+  {
+    id: 3,
+    img: gallery10,
+   
+  },
+  {
+    id: 4,
+    img: gallery11,
+   
+  },
+  {
+    id: 5,
+    img: pic14,
+   
+  },
+  {
+    id: 6,
+    img: gallery12,
+   
+  },
+  {
+    id: 7,
+    img: gallery13,
+   
+  },
+  {
+    id: 8,
+    img: gallery15,
+   
+  },
+  {
+    id: 9,
+    img: gallery17,
+   
+  },
+  {
+    id: 10,
+    img: gallery1,
+   
+  },
+  {
+    id: 11,
+    img: gallery2,
+   
+  },
+  {
+    id: 12,
+    img: gallery3,
+   
+  },
+  {
+    id: 13,
+    img: gallery4,
+   
+  },
+  {
+    id: 14,
+    img: gallery6,
+   
+  },
+  {
+    id: 15,
+    img: gallery7,
+   
+  },
+  {
+    id: 16,
+    img: gallery5,
+   
+  },
+  {
+    id: 17,
+    img: gallery8,
+   
+  },
+  {
+    id: 18,
+    img: gallery9,
+   
+  },
+  {
+    id: 19,
+    img: gallery14,
+   
+  },
+  {
+    id: 20,
+    img: gallery16,
+   
+  },
+  {
+    id: 121,
+    img: gallery20,
+   
+  },
+  {
+    id: 133,
+    img: gallery19,
+   
+  },
+  
+];

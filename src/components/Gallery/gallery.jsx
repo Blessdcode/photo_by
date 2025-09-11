@@ -1,36 +1,7 @@
 import styles from "../../styles";
-import { pic11, pic12, pic13, pic14 } from "../../assets";
+import { galleryItems } from "../../constants/main";
 
-const galleryItems = [
-  {
-    id: 1,
-    img: pic13,
-    title: "Studio Portraits",
-    description:
-      "Dramatic lighting and bold compositions that capture your essence.",
-  },
-  {
-    id: 2,
-    img: pic11,
-    title: "Outdoor Sessions",
-    description:
-      "Storytelling through natural light, landscapes, and urban backdrops.",
-  },
-  {
-    id: 3,
-    img: pic14,
-    title: "Event Coverage",
-    description:
-      "Cinematic captures of weddings, celebrations, and milestones.",
-  },
-  {
-    id: 4,
-    img: pic12,
-    title: "Fashion & Editorial",
-    description: "Striking, styled images perfect for magazines and campaigns.",
-  },
- 
-];
+
 
 const Gallery = () => {
   return (
