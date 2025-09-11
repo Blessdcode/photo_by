@@ -25,7 +25,6 @@ import {
   gallery20,
   pic11,
   pic12,
-  pic13,
   pic14,
 } from "../assets";
 
@@ -51,8 +50,6 @@ export const navLinks = [
     title: "Contact",
   },
 ];
-
-
 
 export const Reviews = [
   {
@@ -111,10 +108,6 @@ export const ServicesEl = [
     img: icons_4,
   },
 ];
-
-
-
-
 
 export const footerLinks = [
   {
@@ -177,117 +170,87 @@ export const footerLinks = [
 //   },
 // ];
 
-
 export const galleryItems = [
   {
-    id: 1,
-    img: pic13,
-   
+    id: 104,
+    img: pic12,
   },
   {
-    id: 2,
-    img: gallery1,
-   
+    id: 133,
+    img: gallery18,
   },
-  {
-    id: 3,
-    img: gallery10,
-   
-  },
+
   {
     id: 4,
     img: gallery11,
-   
   },
-  {
-    id: 5,
-    img: pic14,
-   
-  },
+
   {
     id: 6,
     img: gallery12,
-   
   },
   {
     id: 7,
     img: gallery13,
-   
   },
   {
     id: 8,
     img: gallery15,
-   
   },
   {
     id: 9,
     img: gallery17,
-   
   },
   {
     id: 10,
     img: gallery1,
-   
   },
   {
     id: 11,
-    img: gallery2,
-   
+    img: pic11,
   },
   {
     id: 12,
     img: gallery3,
-   
   },
   {
     id: 13,
     img: gallery4,
-   
   },
   {
     id: 14,
     img: gallery6,
-   
   },
   {
     id: 15,
     img: gallery7,
-   
   },
   {
     id: 16,
     img: gallery5,
-   
   },
   {
     id: 17,
     img: gallery8,
-   
   },
   {
     id: 18,
     img: gallery9,
-   
   },
   {
     id: 19,
     img: gallery14,
-   
   },
   {
     id: 20,
     img: gallery16,
-   
   },
   {
     id: 121,
     img: gallery20,
-   
   },
   {
     id: 133,
     img: gallery19,
-   
   },
-  
 ];

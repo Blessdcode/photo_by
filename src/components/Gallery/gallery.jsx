@@ -1,8 +1,6 @@
 import styles from "../../styles";
 import { galleryItems } from "../../constants/main";
 
-
-
 const Gallery = () => {
   return (
     <section className={`${styles.paddingX} my-16`}>
@@ -23,12 +21,12 @@ const Gallery = () => {
         {galleryItems.map((item) => (
           <div
             key={item.id}
-            className="relative overflow-hidden rounded-lg shadow-md group"
+            className="relative overflow-hidden rounded-lg shadow-md "
           >
             <img
               src={item.img}
               alt={item.title}
-              className="w-full h-[400px] object-cover transform group-hover:scale-110 transition-all duration-500"
+              className="w-full h-[400px] object-cover transform group-hover:scale-110 transition-all duration-500 grayscale hover:grayscale-0"
             />
             {/* <div className="absolute inset-0 flex flex-col justify-end p-6 transition duration-500 opacity-0 bg-black/50 group-hover:opacity-100">
               <h3 className="mb-2 text-xl font-bold text-white">
