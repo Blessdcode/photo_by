@@ -28,15 +28,7 @@ const Gallery = () => {
               alt={item.title}
               className="w-full h-[400px] object-cover transform group-hover:scale-110 transition-all duration-500 grayscale hover:grayscale-0"
             />
-            {/* <div className="absolute inset-0 flex flex-col justify-end p-6 transition duration-500 opacity-0 bg-black/50 group-hover:opacity-100">
-              <h3 className="mb-2 text-xl font-bold text-white">
-                {item.title}
-              </h3>
-              <p className="mb-4 text-sm text-gray-200">{item.description}</p>
-              <button className="px-4 py-2 text-black transition bg-white rounded-md shadow btn w-fit hover:bg-gray-200">
-                Explore More
-              </button>
-            </div> */}
+            
           </div>
         ))}
       </div>
