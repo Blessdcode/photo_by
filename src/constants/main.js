@@ -1,32 +1,4 @@
-import {
-  icons_1,
-  icons_2,
-  icons_3,
-  icons_4,
-  gallery1,
-  gallery2,
-  gallery3,
-  gallery4,
-  gallery5,
-  gallery6,
-  gallery7,
-  gallery8,
-  gallery9,
-  gallery10,
-  gallery11,
-  gallery12,
-  gallery13,
-  gallery14,
-  gallery15,
-  gallery16,
-  gallery17,
-  gallery18,
-  gallery19,
-  gallery20,
-  pic11,
-  pic12,
-  pic14,
-} from "../assets";
+import { icons_1, icons_2, icons_3, icons_4 } from "../assets";
 
 export const navLinks = [
   {
@@ -173,84 +145,77 @@ export const footerLinks = [
 export const galleryItems = [
   {
     id: 104,
-    img: pic12,
+    img: "https://i.ibb.co/vxPWd8p5/pics-19.jpg",
   },
   {
     id: 133,
-    img: gallery18,
+    img: "https://i.ibb.co/21fRDmCh/pics-14.jpg",
   },
 
   {
     id: 4,
-    img: gallery11,
+    img: "https://i.ibb.co/gFfRJKQp/pics-16.jpg",
   },
 
   {
     id: 6,
-    img: gallery12,
+    img: "https://i.ibb.co/mF5BbKN0/pics-17.jpg",
   },
   {
     id: 7,
-    img: gallery13,
+    img: "https://i.ibb.co/SwSpvXtG/pics-12.jpg",
   },
   {
     id: 8,
-    img: gallery15,
+    img: "https://i.ibb.co/zWkrTc3Y/pic-1.jpg",
   },
   {
     id: 9,
-    img: gallery17,
+    img: "https://i.ibb.co/rRhQvrbC/pics-1.jpg",
   },
   {
     id: 10,
-    img: gallery1,
+    img: "https://i.ibb.co/Rk7VT8Lb/pics-3.jpg",
   },
   {
     id: 11,
-    img: pic11,
+    img: "https://i.ibb.co/zHmf5JsZ/pics-10.jpg",
   },
   {
     id: 12,
-    img: gallery3,
+    img: "https://i.ibb.co/xqN2DQw8/pics-5.jpg",
   },
   {
     id: 13,
-    img: gallery4,
+    img: "https://i.ibb.co/ds1KGg2V/pics-13.jpg",
   },
   {
     id: 14,
-    img: gallery6,
+    img: "https://i.ibb.co/Q3F61s1q/pics-7.jpg",
   },
   {
     id: 15,
-    img: gallery7,
+    img: "https://i.ibb.co/mF8475mk/pics-18.jpg",
   },
   {
     id: 16,
-    img: gallery5,
+    img: "https://i.ibb.co/wNhwMVrG/pics-8.jpg",
   },
   {
     id: 17,
-    img: gallery8,
+    img: "https://i.ibb.co/v6gD20xr/pics-11.jpg",
   },
   {
     id: 18,
-    img: gallery9,
+    img: "https://i.ibb.co/p61JDCKw/pics-9.jpg",
+  },
+
+  {
+    id: 128,
+    img: "https://i.ibb.co/hFVJZX9h/pics-4.jpg",
   },
   {
-    id: 19,
-    img: gallery14,
-  },
-  {
-    id: 20,
-    img: gallery16,
-  },
-  {
-    id: 121,
-    img: gallery20,
-  },
-  {
-    id: 133,
-    img: gallery19,
+    id: 1284,
+    img: "https://i.ibb.co/HRw9yzs/pic-2.jpg",
   },
 ];
