@@ -67,30 +67,15 @@ const Gallery = () => {
               alt={item.title}
               className="w-full h-[250px] sm:h-[300px] md:h-[400px] object-cover transform group-hover:scale-110 transition-all duration-500 grayscale hover:grayscale-0"
             />
-
-            <div className="absolute inset-0 flex items-center justify-center transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
-              <div className="transition-opacity duration-300 opacity-0 group-hover:opacity-100">
-                <svg
-                  className="w-8 h-8 text-white sm:w-12 sm:h-12"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"
-                  />
-                </svg>
-              </div>
-            </div>
-
-            <div className="absolute bottom-0 left-0 right-0 p-4 transition-opacity duration-300 opacity-0 bg-gradient-to-t from-black via-black/70 to-transparent group-hover:opacity-100">
-              <h3 className="text-sm font-semibold text-white truncate sm:text-base">
+            {/* <div className="absolute inset-0 flex flex-col justify-end p-6 transition duration-500 opacity-0 bg-black/50 group-hover:opacity-100">
+              <h3 className="mb-2 text-xl font-bold text-white">
                 {item.title}
               </h3>
-            </div>
+              <p className="mb-4 text-sm text-gray-200">{item.description}</p>
+              <button className="px-4 py-2 text-black transition bg-white rounded-md shadow btn w-fit hover:bg-gray-200">
+                Explore More
+              </button>
+            </div> */}
           </div>
         ))}
       </div>
